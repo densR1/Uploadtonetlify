@@ -1,0 +1,270 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #E5E5E5;
+
+body{
+    background-image: url("Bckgrnd.png");
+    background-repeat: no-repeat;
+}
+
+.container-fluid{
+    position:absolute;
+    right: 71rem;
+   
+}
+.rectangle{
+    width: 85.375rem;
+    height: 34.688rem;
+    left: 0rem;
+    top: 0rem;
+    background :url(bg.jpeg);
+
+
+}
+h1{
+    padding-top: 9.063rem;
+    padding-left: 6rem;
+    font-size: 2.063rem;
+    line-height: 2.5rem;
+    border-spacing: 0rem;
+}
+h6{
+    position: absolute;
+    width: 40rem;
+    height: 11rem;
+    left: 6rem;
+    top: 20rem;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.188rem;
+    line-height: 150%;
+    /* or 1.75rem */
+
+
+    color: #313548;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+
+    position: absolute;
+    width: 24rem;
+    height: 26.75rem;
+    right: 6rem;
+    top: 8.375rem;
+
+/* neutral/white */
+
+    background: #FFFFFF;
+/* drop/shadow-4 */
+
+    box-shadow: 0rem 0.938rem 1.563rem rgba(65, 51, 104, 0.15), 0px 5px 10px rgba(65, 51, 104, 0.05);
+    border-radius: 0,5rem;
+}
+.h2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.188rem;
+    line-height: 1,5rem;
+    /* identical to box height, or 126% */
+    position: static;
+    width: 20rem;
+    height: 1,5rem;
+    left: 0rem;
+    top: 0rem;
+    
+    /* neutral/black-1 */
+    
+    color: #131315;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.625rem 1rem;
+
+    position: static;
+    width: 18.75rem;
+    height: 2,5rem;
+    left: 0rem;
+    top: 1,75rem;
+
+    /* neutral/white */
+
+    background: #FFFFFF;
+    /* neutral/grey-13 */
+
+    border: 0.125rem solid #E5E7F2;
+    box-sizing: border-box;
+    border-radius: 0,25rem;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0,5rem 0rem;
+}
+h4{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* heading/h5 */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.938rem;
+    line-height: 1,2rem;
+    /* identical to box height, or 133% */
+
+
+    /* neutral/black-1 */
+
+    color: #131315;
+}
+.align-text-top{
+    margin-left: 6rem;
+    padding-top: 1.5rem;
+}
+.list-navbar {
+    position: absolute;
+    right: 0.5rem;
+    top: 2rem;
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        margin-right: 3.6rem;
+        a {
+          text-decoration: none;
+          color: #4c516d;
+          font-family: $font-stack;
+        }
+      }
+    }
+  }
+.b1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.563rem 1rem;
+    
+    position: static;
+    width: 19rem;
+    height: 3.4rem;
+    left: 0rem;
+    top: 0rem;
+    
+    /* magenta/magenta */
+    
+    background: #F13392;
+    /* drop/shadow-1 */
+    
+    box-shadow: 0px 0.063rem 0.188rem rgba(65, 51, 104, 0.12), 0px 1px 2px rgba(65, 51, 104, 0.24);
+    border-radius: 2rem;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 1rem 0rem;
+}
+p {
+    color: #878aa6;
+    line-height: 0.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+h5{
+    position: static;
+    width: 3.375rem;
+    height: 1.50rem;
+    left: 8.313rem;
+    top: 0.5rem;
+
+    /* button/button-medium */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 37.5rem;
+    font-size: 0.938;
+    line-height: 1,25rem;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: 0.01rem;
+
+    /* neutral/white */
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0rem 0,5rem;
+}
+.h5-reg{
+    
+    position: absolute;
+    width: 3rem;
+    height: 1.25rem;
+    left: 6rem;
+    top: 36rem;
+
+    /* heading/h5 */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.938rem;
+    line-height: 1,25rem;
+    /* identical to box height, or 133% */
+
+
+    /* neutral/grey-3 */
+
+    color: #4C516D;
+
+}
+.h6-reg{
+    position: absolute;
+    width: 16.375rem;
+    height: 3.75rem;
+    left: 6rem;
+    top: 37.25rem;
+
+    /* paragraph/small-paragraph */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.813rem;
+    line-height: 1,25rem;
+    /* or 154% */
+
+    /* neutral/grey-3 */
+
+    color: #4C516D;
+
+}
+nav{
+    text-align: end;
+}
+a{
+    padding : 64px;
+    margin-top: 38px;
+}
